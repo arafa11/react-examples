@@ -1,9 +1,11 @@
 import React from 'react';
 
-const App = () => {
+import MainRouter from './router/MainRouter';
+
+const App: React.FC = () => {
   return (
     <div className="App">
-      App
+      <MainRouter />
     </div>
   );
 }

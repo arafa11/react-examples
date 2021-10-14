@@ -1,6 +1,6 @@
 const Paths = {
   home: "/",
-  mobxTodo: "mobx-todo",
+  mobxTodo: "/mobx-todo",
 }
 
 export default Paths;

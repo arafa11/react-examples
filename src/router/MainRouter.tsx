@@ -6,15 +6,15 @@ import HomePage from '../pages/Home';
 import NotFoundPage from '../pages/NotFoundPage';
 
 
-const MainRouter = () => {
+const MainRouter: React.FC = () => {
   return (
     <div>
       <Router>
-      <Switch>
-        <Route exact path={Paths.home} component={HomePage} />
-        {/* <Route path="*" render={() => <div>404 Not Found</div>} /> */}
-        <Route path="*" component={NotFoundPage} />
-      </Switch>
+        <Switch>
+          <Route exact path={Paths.home} component={HomePage} />
+          {/* <Route path="*" render={() => <div>404 Not Found</div>} /> */}
+          <Route path="*" component={NotFoundPage} />
+        </Switch>
       </Router>
     </div>
   )
